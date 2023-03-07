@@ -38,9 +38,9 @@ Simon CSS: Just getting a base for head, body, and footer are important. Once th
 
 DOM is going to be vital for my project. The code here https://codepen.io/dluke2/pen/MWqpooM?editors=1010 will help me with my startup application. I'll need to learn to read in inputs, then edit arrays with the information to modify the table.
 
-Simon-CSS: Reading in inputs is interesting. To disply what has already been inputed, I need to use the following structure. The .player_name is a class. The following JavaScript shows how to capture and display data.
+Simon-JavaScript: Reading in inputs is interesting. To disply what has already been inputed, I need to use the following structure. The .player_name is a class. The following JavaScript shows how to capture and display data.
 
-function login() {
+ function login() {
   const nameEl = document.querySelector("#name");
   localStorage.setItem("userName", nameEl.value);
   window.location.href = "play.html";
