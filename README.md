@@ -48,3 +48,5 @@ Simon-JavaScript: Reading in inputs is interesting. To disply what has already b
 
     const playerNameEl = document.querySelector('.player-name');
     playerNameEl.textContent = this.getPlayerName();
+    
+Service: I think what stood out to me was the use of post and get. The post puts the new scores into the table, which is run by index.js. This information is stored in the server in a list using the port to ensure that it persists. This is important because everything in the public folder is run on the browser. The server needs to hold the data.
