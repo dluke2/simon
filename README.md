@@ -50,3 +50,5 @@ Simon-JavaScript: Reading in inputs is interesting. To disply what has already b
     playerNameEl.textContent = this.getPlayerName();
     
 Service: I think what stood out to me was the use of post and get. The post puts the new scores into the table, which is run by index.js. This information is stored in the server in a list using the port to ensure that it persists. This is important because everything in the public folder is run on the browser. The server needs to hold the data.
+
+MongoDB: I learned about keeping keys safe. I didn't know variables could be stored in windows in the way we did. I'm pretty familiar with SQL databases, so storing objects as a JSON was something I never thought of. It makes sense thought, because you can define the attributes you need, so you don't need a bunch of null values if you're not using every attribute.
